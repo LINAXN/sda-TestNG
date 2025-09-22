@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+    <test name="test1">
+
+        <groups>
+            <run>
+                <include name="A"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.C07_Groups">
+                <methods>
+                    <!-- Exclude a specific method from the class -->
+                    <exclude name="test05"></exclude>
+                </methods>
+            </class>
+
+            <class name="tests.C02_Priority">
+                <methods>
+                    <exclude name="test02"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

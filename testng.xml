@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/PCD/IdeaProjects/TestNG/src/test/java/tests/C13_Parameters.java"><classes><class name="tests.C13_Parameters"><methods><include name="parametersTest"/></methods></class></classes></test></suite>
