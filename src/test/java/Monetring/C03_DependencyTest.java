@@ -1,15 +1,13 @@
 package Monetring;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import utilities.TestBase;
 
 import java.time.Duration;
 
-public class DependencyTest  {
+public class C03_DependencyTest {
 //     1. Create a class called
 //DependencyTest
 // 2. Create a

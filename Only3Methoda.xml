@@ -9,7 +9,7 @@
 
     </packages>
         <classes>
-            <class name="Monetring.AttributePracticeTest">
+            <class name="Monetring.C02_AttributePracticeTest">
                 <methods>
                     <include name="test01"/>
                     <include name="test02"/>

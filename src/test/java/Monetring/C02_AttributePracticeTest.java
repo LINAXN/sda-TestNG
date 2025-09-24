@@ -2,7 +2,7 @@ package Monetring;
 
 import org.testng.annotations.*;
 
-public class AttributePracticeTest {
+public class C02_AttributePracticeTest {
 //    1. Create a class called
 //AttributePracticeTest
 // 2. Create 5 test methods with different priorities (1, 3, 2, 5, 4)

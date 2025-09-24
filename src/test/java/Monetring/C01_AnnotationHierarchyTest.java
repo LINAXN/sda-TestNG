@@ -2,7 +2,7 @@ package Monetring;
 
 import org.testng.annotations.*;
 
-public class AnnotationHierarchyTest {
+public class C01_AnnotationHierarchyTest {
 //     1. Create a TestNG class called
 //AnnotationHierarchyTest
 // 2. Implement all TestNG annotations (@BeforeSuite, @BeforeTest, @BeforeClass, @BeforeMethod,
