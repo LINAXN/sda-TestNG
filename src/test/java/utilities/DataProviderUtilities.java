@@ -54,6 +54,17 @@ public class DataProviderUtilities {
     }
 
 
+    @DataProvider(name = "excelDP2")
+     public Object[][] getUserDataFromExcel2() {
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\java\\utilities\\Users.xlsx";
+        ExcelUtilities eu = new ExcelUtilities(filePath, "UserData");
+        return eu.getExcelDataAsArray();
+    }
+
+    }
 
 
-}
+
+
+
+
