@@ -21,6 +21,9 @@ public class C12_DataProviderTask extends TestBase {
     public Object[][] UserRegistration() {
         return new Object[][]{
                 {"123-24-2341", "Lina", "Alhumaidi", "linaxn", "lina@gmail.com", "Ufdv1234"},
+                {"123-24-2342", "Ahmad", "Alhumaidi", "ahmadxn", "a@gmail.com", "Ufdv1234"},
+                {"123-24-2343", "Sara", "Alhumaidi", "saraxn", "s@gmail.com", "Ufdv1234"},
+
         };
     }
 
@@ -52,12 +55,10 @@ public class C12_DataProviderTask extends TestBase {
         driver.findElement(By.id("password")).sendKeys(password, Keys.ENTER);
 
 
-        try {
-            driver.switchTo().alert().accept();
-        } catch (Exception e) {
-            System.out.println("No alert appeared.");
-        }
+        driver.switchTo().alert().accept();
+
     }
+
 
 
     @Test(dataProvider = "faker2", dataProviderClass = utilities.DataProviderUtilities.class)
@@ -88,11 +89,9 @@ public class C12_DataProviderTask extends TestBase {
         driver.findElement(By.id("password")).sendKeys(password, Keys.ENTER);
 
 
-        try {
+
             driver.switchTo().alert().accept();
-        } catch (Exception e) {
-            System.out.println("No alert appeared.");
-        }
+
     }
     @Test(dataProvider = "excelDP2", dataProviderClass =  utilities.DataProviderUtilities.class)
     void dataProviderTaskTest03(String ssn, String firstName, String lastName, String username, String email, String password) {
@@ -112,12 +111,9 @@ public class C12_DataProviderTask extends TestBase {
         driver.findElement(By.id("email")).sendKeys(email);
         driver.findElement(By.id("password")).sendKeys(password, Keys.ENTER);
 
-        try {
+
             driver.switchTo().alert().accept();
-        } catch (Exception e) {
-            System.out.println("No alert appeared.");
         }
     }
 
 
-}
